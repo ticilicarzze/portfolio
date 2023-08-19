@@ -1,0 +1,44 @@
+.home-page h1{
+    color: #FCAA4A;
+    letter-spacing: 2px;
+    margin-top: 300px;
+    font-size: 50px;
+}
+
+.home-page h1 span{
+    color: #FF8A00;
+    font-weight:lighter;
+}
+
+.text-zone {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.flat-button{
+    background-color: #FCAA4A;
+    font-size: 20px;
+    color: #000;
+    padding:15px 25px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s,;
+}
+
+.flat-button svg{
+    position: relative;
+    left: 10px;
+    top: 1px;
+    transition: transform 0.3s;
+}
+
+.flat-button:hover{
+    background-color: #141313;
+    border: 1px solid #FF8A00;
+    color: #FF8A00;
+}
+
+.flat-button:hover svg {
+    transform: rotate(90deg);
+  }
+
