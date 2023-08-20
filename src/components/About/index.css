@@ -1,0 +1,27 @@
+.about-page{
+    display: flex;
+    background-color: red;
+}
+
+.img-port{
+    height: 500px;
+    margin-right: 20px;
+}
+
+.about-p{
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.about-p h2,
+.about-p p{
+    width: 300px;
+
+}
+
+
+
+
+
+
+

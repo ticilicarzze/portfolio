@@ -21,7 +21,7 @@ const Header = () => (
         exact='true'
         activeclassname='active'
         className='project-link'
-        to='/projects'
+        to='/work'
       >
         <p>WORK</p>
       </NavLink>
@@ -29,7 +29,7 @@ const Header = () => (
         exact='true'
         activeclassname='active'
         className='contact-link'
-        to='/work'
+        to='/contact'
       >
         <p>CONTACT</p>
       </NavLink>
