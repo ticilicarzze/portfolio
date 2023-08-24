@@ -1,0 +1,55 @@
+.carousel{
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    display:flex;
+    overflow-x: hidden;
+    cursor: grab;
+    align-items: center;
+}
+
+.inner-carousel{
+    padding: 10px;
+    display: inline-flex;
+    gap: 100px;
+}
+
+.item {
+    min-width: 30rem;
+    height: 40rem;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    /* pointer-events: none; */
+    margin-bottom: 40px;
+    transition: all 0s ease;
+    box-sizing: border-box;
+}
+
+.item a{
+    background-color: #FCAA4A;
+    color: #141313;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    transition: all 0.5s ease;
+    font-family: "Montserrat Regular";
+}
+
+
+.item a:hover{
+    background-color: #141313;
+    border: 1px solid #FF8A00;
+    color: #FF8A00;
+}
+
+
+
+
+
+
+

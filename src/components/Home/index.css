@@ -1,3 +1,11 @@
+.home-page{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../assets/herobg.png');
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
 .home-page h1{
     color: #FCAA4A;
     letter-spacing: 2px;
@@ -38,8 +46,4 @@
     border: 1px solid #FF8A00;
     color: #FF8A00;
 }
-
-.flat-button:hover svg {
-    transform: rotate(90deg);
-  }
 
