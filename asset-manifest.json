@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-porfolio/static/css/main.086f4b26.css",
-    "main.js": "/react-porfolio/static/js/main.3222eebd.js",
-    "static/media/panda.jpg": "/react-porfolio/static/media/panda.909c00e9e81e4ab4786b.jpg",
-    "static/media/tucan.jpg": "/react-porfolio/static/media/tucan.cc90c0f0b7af422da0c2.jpg",
-    "static/media/gabiota.jpg": "/react-porfolio/static/media/gabiota.1302659f3fd711f7a62c.jpg",
-    "static/media/geko.jpg": "/react-porfolio/static/media/geko.004cfdc34462d51028d0.jpg",
-    "static/media/tibu.jpg": "/react-porfolio/static/media/tibu.df81705637327214dd8d.jpg",
-    "static/media/herobg.png": "/react-porfolio/static/media/herobg.ad33add2430e34307c33.png",
-    "static/media/Cute_Animal_Characters_pomerania_evil_devil_costume_cream_colo_0.jpg": "/react-porfolio/static/media/Cute_Animal_Characters_pomerania_evil_devil_costume_cream_colo_0.d6a55e258197c768ad7a.jpg",
-    "static/media/ranita.jpg": "/react-porfolio/static/media/ranita.765c0304c0ac963b2459.jpg",
-    "static/media/Montserrat-Bold.ttf": "/react-porfolio/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
-    "static/media/Montserrat-Light.ttf": "/react-porfolio/static/media/Montserrat-Light.6fcc9263a21be961d246.ttf",
-    "static/media/Montserrat-Regular.ttf": "/react-porfolio/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
-    "static/media/Montserrat-ExtraLight.ttf": "/react-porfolio/static/media/Montserrat-ExtraLight.ef3c777f702c89a0f300.ttf",
-    "static/media/Montserrat-Thin.ttf": "/react-porfolio/static/media/Montserrat-Thin.413b6b9f23ece3b343a7.ttf",
-    "index.html": "/react-porfolio/index.html",
-    "main.086f4b26.css.map": "/react-porfolio/static/css/main.086f4b26.css.map",
-    "main.3222eebd.js.map": "/react-porfolio/static/js/main.3222eebd.js.map"
+    "main.css": "/static/css/main.3e472896.css",
+    "main.js": "/static/js/main.67cff185.js",
+    "static/media/panda.jpg": "/static/media/panda.909c00e9e81e4ab4786b.jpg",
+    "static/media/tucan.jpg": "/static/media/tucan.cc90c0f0b7af422da0c2.jpg",
+    "static/media/gabiota.jpg": "/static/media/gabiota.1302659f3fd711f7a62c.jpg",
+    "static/media/geko.jpg": "/static/media/geko.004cfdc34462d51028d0.jpg",
+    "static/media/tibu.jpg": "/static/media/tibu.df81705637327214dd8d.jpg",
+    "static/media/herobg.png": "/static/media/herobg.ad33add2430e34307c33.png",
+    "static/media/Cute_Animal_Characters_pomerania_evil_devil_costume_cream_colo_0.jpg": "/static/media/Cute_Animal_Characters_pomerania_evil_devil_costume_cream_colo_0.d6a55e258197c768ad7a.jpg",
+    "static/media/ranita.jpg": "/static/media/ranita.765c0304c0ac963b2459.jpg",
+    "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/Montserrat-Light.ttf": "/static/media/Montserrat-Light.6fcc9263a21be961d246.ttf",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/Montserrat-ExtraLight.ttf": "/static/media/Montserrat-ExtraLight.ef3c777f702c89a0f300.ttf",
+    "static/media/Montserrat-Thin.ttf": "/static/media/Montserrat-Thin.413b6b9f23ece3b343a7.ttf",
+    "index.html": "/index.html",
+    "main.3e472896.css.map": "/static/css/main.3e472896.css.map",
+    "main.67cff185.js.map": "/static/js/main.67cff185.js.map"
   },
   "entrypoints": [
-    "static/css/main.086f4b26.css",
-    "static/js/main.3222eebd.js"
+    "static/css/main.3e472896.css",
+    "static/js/main.67cff185.js"
   ]
 }
