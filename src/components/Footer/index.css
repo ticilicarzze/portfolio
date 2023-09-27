@@ -1,18 +1,19 @@
 .footer{
-    height: 100px;
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    flex-direction: column;
+    height: 100px;
     background-color: #141313;
 }
 
 .footer p{
     color: #E49231;
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .media-container svg{
     padding: 0 20px;
+    font-size: 20px;
 }

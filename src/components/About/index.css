@@ -6,11 +6,6 @@
     background-color: #0c0c0c;
 }
 
-.about-divider{
-    flex-grow: 1;
-    background-color: rgb(30, 57, 210);
-}
-
 .about-p,
 .about-image {
     width: 50%;
@@ -22,15 +17,11 @@
     margin-left: 50px;
 }
 
-h2{
-    color: #FF8A00;
-    font-family: "Montserrat Thin";
-}
-
 .about-p p{
-    color: #fcca92;
     width: 80%;
     margin-bottom: 40px;
+    font-size: 1.6rem;
+    color: #fcca92;
 }
 
 .about-p span{
@@ -46,10 +37,10 @@ h2{
 
 
 .skills-button{
-    background-color: #FCAA4A;
-    font-size: 20px;
-    color: #000;
     padding:15px 25px;
+    background-color: #FCAA4A;
+    font-size: 2rem;
+    color: #000;
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s, transform 0.3s,;
@@ -75,9 +66,8 @@ h2{
 .skills-page{
     display: flex;
     flex-direction: column;
-    height: 100vh;
     justify-content: center;
-
+    height: 100vh;
 }
 
 .skills-container{
@@ -88,6 +78,7 @@ h2{
 .skills-container p{
     align-self: end;
     width: 60%;
+    font-size: 1.6rem;
     color:#FCAA4A;
 }
 
@@ -100,5 +91,62 @@ h2{
     border-top-right-radius: 25px; 
     border-bottom-right-radius: 25px;
     background-color: #FCAA4A;
+    font-size: 2rem;
     color: #0c0c0c;
+  }
+
+
+  @media screen and (max-width: 1000px) {
+    .about-page{
+        flex-direction: column-reverse;
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-p,
+    .about-image {
+    width: 80%;
+    padding: 0;
+  }
+
+    .about-p{
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .about-p p{
+        width: 100%;
+    }
+
+    .about-image {
+        height: 60vh;
+    }
+
+    .skills-container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .skills-container p{
+        align-self: start;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .skills-page{
+        height: auto;
+    }
+
+    .skills-name {
+        width: 200px;
+        height: 45px;
+        padding-left: 30px;
+        border-top-right-radius: 25px; 
+        border-bottom-right-radius: 25px;
+        background-color: #FCAA4A;
+        font-size: 2rem;
+        color: #0c0c0c;
+      }
   }

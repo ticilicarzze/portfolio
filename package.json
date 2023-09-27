@@ -2,9 +2,10 @@
   "name": "react-porfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ticilicarzze.github.io/",
+  "homepage": "http://ticilicarzze.github.io/react-porfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -24,6 +25,7 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "sass": "^1.66.1",
+    "swiper": "^10.2.0",
     "typed.js": "^2.0.16",
     "web-vitals": "^2.1.4"
   },

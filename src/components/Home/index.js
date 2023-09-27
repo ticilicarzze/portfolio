@@ -29,7 +29,7 @@ const Home = () => {
           <br />A <span ref={el} />.
         </h1>
         <div className='button-container'>
-          <Link to='/work' className='flat-button'>
+          <Link to='/react-porfolio/work' className='flat-button'>
             View my work
             <FontAwesomeIcon icon={faArrowRight} />
           </Link>

@@ -2,15 +2,15 @@
     height: 100vh;
     width: 100%;
     background-image: url('../../assets/herobg.png');
-  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-size: cover; 
+  background-repeat: no-repeat; 
 }
 
 .home-page h1{
     color: #FCAA4A;
     letter-spacing: 2px;
     margin-top: 300px;
-    font-size: 50px;
+    font-size: 5rem;
     font-family: "Montserrat Regular";
 }
 
@@ -26,10 +26,10 @@
 }
 
 .flat-button{
-    background-color: #FCAA4A;
-    font-size: 20px;
-    color: #000;
     padding:15px 25px;
+    background-color: #FCAA4A;
+    font-size: 2rem;
+    color: #000;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s, transform 0.3s,;
 }
@@ -47,3 +47,15 @@
     color: #FF8A00;
 }
 
+@media screen and (max-width: 660px) {
+    .home-page h1{
+        letter-spacing: 2px;
+        margin-top: 300px;
+        font-size: 4rem;
+    }
+
+    .flat-button{
+        padding:10px 20px;
+        font-size: 1.7rem;
+    }
+}
