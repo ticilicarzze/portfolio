@@ -15,7 +15,7 @@ const About = () => {
           style={{ backgroundImage: `url(${Port})` }}
         ></div>
         <div className='about-p'>
-          <h2>ABOUT</h2>
+          <h2>ABOUT ME</h2>
           <p>
             I'm Ticiano, a passionate freelancer from Rosario, Argentina. I have
             knowledge in various areas of digital design, including full stack

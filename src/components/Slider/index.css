@@ -1,6 +1,12 @@
+.container-carousel{
+  margin-top: 100px;
+  height: 80vh;
+  text-align: center;
+}
+
 .swiper-container {
-    margin: 80px auto;
-    height: 85vh;
+    margin: 0 auto;
+    height: 65vh;
 }
   
 .swiper {
@@ -22,9 +28,8 @@
 }
 
 .swiper-pagination-bullet {
-  width: 15px;
-  height: 15px;
-  margin-top: 20px;
+  width: 12px;
+  height: 12px;
   opacity: 1;
   background: rgba(0, 0, 0, 0.4);
 }
@@ -42,15 +47,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 20px; 
+  margin: 0 20px;
   width: 40px;
-  height: 40px; 
+  height: 40px;
   cursor: pointer;
   transition: opacity 0.3s ease-in-out;
   background-color: rgba(12, 12, 12, 0.8);
   border-radius: 50%;
   padding: 5px;
+  border: 1px solid #ff880062; 
+  backdrop-filter: blur(5px);
 }
+
 
 .swiper-button-prev .fa-chevron-left,
 .swiper-button-next .fa-chevron-right {
@@ -64,4 +72,18 @@
   opacity: 1;
 }
 
+@media screen and (max-width: 550px) {
+  .container-carousel h2{
+    font-size: 2.3rem;
+  }
+  .swiper-button-prev .fa-chevron-left,
+  .swiper-button-next .fa-chevron-right {
+  height: 15px;
+  } 
+
+  .swiper-button-prev,
+.swiper-button-next {
+  background-color: rgba(12, 12, 12, 0.8);
+}
+}
  

@@ -48,10 +48,14 @@
 }
 
 @media screen and (max-width: 660px) {
+    .home-page{
+        height: 90vh;
+    }
+
     .home-page h1{
         letter-spacing: 2px;
         margin-top: 300px;
-        font-size: 4rem;
+        font-size: 3.2rem;
     }
 
     .flat-button{
