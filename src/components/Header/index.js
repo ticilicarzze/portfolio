@@ -14,11 +14,7 @@ function Header() {
   return (
     <>
       <nav className='navbar'>
-        <Link
-          to='/react-porfolio'
-          className='navbar-logo'
-          onClick={closeMobileMenu}
-        >
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
           <FontAwesomeIcon icon={faHome} color='#FF8A00' />
         </Link>
         <div className='menu-icon' onClick={handleClick}>
@@ -27,7 +23,7 @@ function Header() {
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className='nav-item'>
             <NavLink
-              to='/react-porfolio/about'
+              to='/about'
               className='nav-links'
               onClick={closeMobileMenu}
             >
@@ -35,17 +31,13 @@ function Header() {
             </NavLink>
           </li>
           <li className='nav-item'>
-            <NavLink
-              to='/react-porfolio/work'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
+            <NavLink to='/work' className='nav-links' onClick={closeMobileMenu}>
               WORK
             </NavLink>
           </li>
           <li className='nav-item'>
             <NavLink
-              to='/react-porfolio/contact'
+              to='/contact'
               className='nav-links'
               onClick={closeMobileMenu}
             >
