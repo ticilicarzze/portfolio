@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import "./index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import Port from "../../assets/Cute_Animal_Characters_pomerania_evil_devil_costume_cream_colo_0.jpg";
+import Port from "../../assets/images/portrait1.jpg";
 import { Element } from "react-scroll";
 
 const About = () => {
@@ -39,7 +39,7 @@ const About = () => {
           <h2>SKILLS</h2>
           <div className='skills-container'>
             <h3 className='skills-name'>HTML/CSS</h3>
-            <p>
+            <p className='skills-text'>
               I aim for performance, simplicity and integrity in my work. I
               write CSS modules and when not working vanilla HTML, solutions
               such as React's JSX are my choice for DOM manipulation.
@@ -47,7 +47,7 @@ const About = () => {
           </div>
           <div className='skills-container'>
             <h3 className='skills-name'>JavaScript</h3>
-            <p>
+            <p className='skills-text'>
               I build both small and large scale applications in JavaScript
               daily for desktop, tablet, mobile or server. Combined with an
               in-depth understanding of UX and design means I can take
@@ -56,7 +56,7 @@ const About = () => {
           </div>
           <div className='skills-container'>
             <h3 className='skills-name'>React</h3>
-            <p>
+            <p className='skills-text'>
               On the web, I work with both vanilla and framework-based
               applications with strong capabilities in popular
               frameworks/libraries such as React/React Native, Redux
@@ -64,7 +64,7 @@ const About = () => {
           </div>
           <div className='skills-container'>
             <h3 className='skills-name'>Node JS</h3>
-            <p>
+            <p className='skills-text'>
               I've worked extensively with Node.js, whether that's in the
               creation of optimized build systems, testing environments, server
               side rendering and multi-user experiences.

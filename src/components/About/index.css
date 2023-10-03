@@ -31,7 +31,7 @@
 .about-image {
     height: 100vh;
     background-size: cover; 
-    background-position: center top; 
+    background-position: center bottom; 
 }
 
 
@@ -75,26 +75,36 @@
     justify-content: space-between;
 }
 
-.skills-container p{
+.skills-text {
     align-self: end;
     width: 60%;
     font-size: 1.6rem;
-    color:#FCAA4A;
-}
-
-.skills-name {
+    color: #FCAA4A;
+    transition: all 0.4s ease;
+  }
+  
+  .skills-name {
     display: flex;
     align-items: center;
-    width: 200px;
+    width: 200px; 
     height: 50px;
     padding-left: 30px;
-    border-top-right-radius: 25px; 
+    border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     background-color: #FCAA4A;
     font-size: 2rem;
     color: #0c0c0c;
+    transition: width 0.4s ease;
   }
-
+  
+.skills-container:hover .skills-name {
+    background-color: #FF8A00;
+    width: 250px;
+  }
+  
+  .skills-container:hover .skills-text {
+    color: #FF8A00; 
+  }
 
   @media screen and (max-width: 1000px) {
     .about-page{

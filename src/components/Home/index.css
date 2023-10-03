@@ -1,7 +1,7 @@
 .home-page{
     height: 100vh;
     width: 100%;
-    background-image: url('../../assets/herobg.png');
+    background-image: url('../../assets/images/herobg.png');
   background-size: cover; 
   background-repeat: no-repeat; 
 }
