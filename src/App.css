@@ -20,3 +20,8 @@
     font-family: "Montserrat Thin";
     src: url(./assets/fonts/Montserrat-Thin.ttf) format("ttf");
 }
+
+@font-face {
+    font-family: "Montserrat ExtraBold";
+    src: url(./assets/fonts/Montserrat-ExtraBold.ttf) format("ttf");
+}

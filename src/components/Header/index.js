@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCircleHalfStroke,
+  faBars,
+  faXmark,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   const [click, setClick] = useState(false);
@@ -14,9 +18,13 @@ function Header() {
   return (
     <>
       <nav className='navbar'>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <FontAwesomeIcon icon={faHome} color='#FF8A00' />
-        </Link>
+        <NavLink
+          to='/'
+          className='navbar-logo nav-links'
+          onClick={closeMobileMenu}
+        >
+          HOME
+        </NavLink>
         <div className='menu-icon' onClick={handleClick}>
           <FontAwesomeIcon icon={click ? faXmark : faBars} color='#FF8A00' />
         </div>
@@ -45,6 +53,11 @@ function Header() {
             </NavLink>
           </li>
         </ul>
+        <FontAwesomeIcon
+          icon={faCircleHalfStroke}
+          color='#FF8A00'
+          className='mode-icon'
+        />
       </nav>
     </>
   );

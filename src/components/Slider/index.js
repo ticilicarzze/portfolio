@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -12,7 +12,21 @@ import {
   faChevronLeft,
 } from "@fortawesome/free-solid-svg-icons";
 
+// ... (importaciones y código anterior)
+
 function Slider() {
+  // Estado para controlar la visibilidad del texto al hacer hover
+  const [isTextVisible, setTextVisible] = useState(false);
+
+  const array = [
+    "First Project",
+    "Second Project",
+    "Third Project",
+    "Fourth Project",
+    "Fifth Project",
+    "Sixth Project",
+  ];
+
   return (
     <div className='container-carousel'>
       <h2>DIG INTO MY PROJECTS</h2>
@@ -35,7 +49,6 @@ function Slider() {
             1000: {
               slidesPerView: 2,
             },
-
             1400: {
               slidesPerView: 3,
             },
@@ -43,7 +56,23 @@ function Slider() {
         >
           {images.map((image, index) => (
             <SwiperSlide className='item' key={index}>
-              <img src={image} alt={`slide-project-${index}`} />
+              <div className='link-item'>
+                <a
+                  href='https://www.facebook.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img
+                    src={image}
+                    alt={`slide-project-${index}`}
+                    onMouseEnter={() => setTextVisible(true)}
+                    onMouseLeave={() => setTextVisible(false)}
+                  />
+                  {isTextVisible && (
+                    <div className='hover-text'>{array[index]}</div>
+                  )}
+                </a>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>

@@ -25,7 +25,7 @@ const Home = () => {
     <div className='home-page'>
       <div className='text-zone'>
         <h1>
-          Hi, I'm <span>Ticiano Licarzze</span>.
+          Hi, I'm <span>Ticiano</span>.
           <br />A <span ref={el} />.
         </h1>
         <div className='button-container'>

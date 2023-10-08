@@ -75,6 +75,10 @@
 .menu-icon {
   display: none;
 }
+
+.mode-icon{
+  font-size: 1.6rem;
+}
   
   @media screen and (max-width: 660px) {
     ul{
@@ -85,10 +89,15 @@
       padding-inline-start: 0;
     }
 
-    
+    .mode-icon{
+      margin-left: 0;
+      margin-right: 80px;
+    }
+
     .navbar {
       background: #0c0c0c;
       height: 55px;
+      justify-content: space-between;
     }
 
     .nav-menu {
@@ -97,13 +106,14 @@
       width: 100%;
       position: absolute;
       top: 50px;
-      left: -100%;
+      right: -100%;
       transition: all 0.5s ease;
+      margin-right: 0px;
     }
   
     .nav-menu.active {
       background: #0c0c0c;
-      left: 0;
+      right: 0;
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 100;
@@ -128,17 +138,14 @@
     }
   
     .navbar-logo {
-      position: absolute;
-      top: 0;
-      left: 20px;
-      transform: translate(25%, 50%);
-
+      width: 110px;
+      text-align: start;
     }
   
     .menu-icon {
       display: block;
       position: absolute;
-      top: 0;
+      top: 5px;
       right: 15px;
       transform: translate(-100%, 60%);
       font-size: 1.8rem;

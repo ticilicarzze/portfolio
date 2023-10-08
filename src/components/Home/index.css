@@ -1,7 +1,7 @@
 .home-page{
     height: 100vh;
     width: 100%;
-    background-image: url('../../assets/images/herobg.png');
+    background-image: url('../../assets/images/herobg.webp');
   background-size: cover; 
   background-repeat: no-repeat; 
 }
@@ -10,11 +10,11 @@
     color: #FCAA4A;
     letter-spacing: 2px;
     margin-top: 300px;
-    font-size: 5rem;
+    font-size: 8rem;
     font-family: "Montserrat Regular";
 }
 
-.home-page h1 span{
+.home-page span{
     color: #FF8A00;
     font-family: "Montserrat Thin";
 }
@@ -47,14 +47,15 @@
     color: #FF8A00;
 }
 
-@media screen and (max-width: 660px) {
-    .home-page{
-        height: 90vh;
-    }
 
+@media screen and (max-width: 1000px) {
     .home-page h1{
-        letter-spacing: 2px;
-        margin-top: 300px;
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .home-page h1{
         font-size: 3.2rem;
     }
 

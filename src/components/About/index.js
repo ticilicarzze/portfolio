@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import "./index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import Port from "../../assets/images/portrait1.jpg";
+import Port from "../../assets/images/portrait1.webp";
 import { Element } from "react-scroll";
 
 const About = () => {

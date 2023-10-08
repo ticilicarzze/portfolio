@@ -21,7 +21,7 @@
     width: 80%;
     margin-bottom: 40px;
     font-size: 1.6rem;
-    color: #fcca92;
+    color: #fff;
 }
 
 .about-p span{
@@ -77,7 +77,7 @@
     align-self: end;
     width: 60%;
     font-size: 1.6rem;
-    color: #FCAA4A;
+    color: #fff;
     transition: all 0.4s ease;
   }
   
